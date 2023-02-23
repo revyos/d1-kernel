@@ -51,7 +51,7 @@
 			i-cache-size = <32768>;
 			mmu-type = "riscv,sv39";
 			operating-points-v2 = <&cpu_opp_table>;
-			riscv,isa = "rv64imafdc";
+			riscv,isa = "rv64imafdcv";
 			#cooling-cells = <2>;
 
 			cpu0_intc: interrupt-controller {
